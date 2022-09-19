@@ -38,7 +38,7 @@ main {
 /* footer */
 footer {
     position: relative;
-    background-color: black;
+    background-color: $negro;
     color: white;    
 }
 
@@ -54,7 +54,7 @@ footer {
 
 /* Contenedor del iniciar sesion */
 .user-container {
-    border: 8px double green;
+    border: 8px double $verde-normal;
     position: relative;
     height: 100px;
     width: 250px;

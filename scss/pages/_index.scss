@@ -10,8 +10,8 @@
 .aside-container {
     bottom: 250px;
     right: 30px;
-    background-color: rgb(28, 56, 28);
-    border: solid 1px black;
+    background-color: $verde-oscuro;
+    border: solid 1px $negro;
     border-radius: 15px; 
     /* Titulo del aside del index */
 &__h2 {
@@ -22,8 +22,8 @@
     font-size: 40px;
     background-color: greenyellow;
     border-radius: 15px;
-    border-left: 5px solid green ;
-    border-bottom: 5px solid green;
+    border-left: 5px solid $verde-normal ;
+    border-bottom: 5px solid $verde-normal;
     text-align: center;
     font-family:'rubik dirt', cursive;
     
@@ -31,7 +31,7 @@
 &__parrafo {
     font-size: 27px;
     font-family: 'merriweather', serif;
-    border-bottom: 8px solid green;
+    border-bottom: 8px solid $verde-normal;
     border-radius: 5px;  
     display: grid;   
     
@@ -48,14 +48,14 @@
     color: wheat;
     display: inline;
     font-size: 25px;
-    border-top: 7px solid green;
-    border-left: 7px solid green;
+    border-top: 7px solid $verde-normal;
+    border-left: 7px solid $verde-normal;
     /* Tabla de los inscriptos al torneo del index */
 &__table {
     width: 500px;
     height: 200px;
     border-color: rgb(13, 95, 13);
-    background-color: rgb(20, 32, 20);
+    background-color: $verde-oscuro;
     color: white;
     margin-top: 10px;
     font-size:x-large;
@@ -72,7 +72,7 @@
             display: none;
         }
         & span{
-            background-color: green;
+            background-color: $verde-normal;
             display: inline;
         }
          /* menu de navegacion  */
@@ -84,7 +84,7 @@
         display: none;
         }
         &-t span{
-            background-color: green;
+            background-color: $verde-normal;
             display: inline;
         }
     }

@@ -18,7 +18,7 @@
     z-index: 200;
     // transicion del nav en todas las pag 
     &:hover {
-        background-color: greenyellow;
+        background-color: $verde-amarillo;
         
     }
    
@@ -37,7 +37,7 @@
     }
     /* palabras dentro del nav */
     &:hover {
-        background-color:greenyellow;
+        background-color:$verde-amarillo;
         color:black;
         padding: 20px;
     }
@@ -52,17 +52,17 @@
     width: 1fr;
     font-size: 80px;
     text-align: center;
-    border: 10px ridge rgb(0, 122, 0);
+    border: 10px ridge $verde-normal;
     border-radius: 10px;
-    background-color:darkolivegreen;
+    background-color:$verde-oscuro;
     margin-top: 20px;
     font-family:'aboreto', cursive;
     transition: transform 5s;
     animation-delay: 2s;
     //cambio de color en el h1
      &:hover {
-        background: black;
-    color: green;
+        background: $negro;
+    color:$verde-normal;
     animation-delay: 2s;
      }
     
